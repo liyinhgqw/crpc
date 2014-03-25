@@ -1,0 +1,43 @@
+# cpp
+*.o
+*.obj
+*.lo
+*.slo
+
+*.so
+*.dll
+*.dylib
+
+*.a
+*.la
+*.lai
+*.lib
+
+*.exe
+*.out
+*.app
+
+# gyp
+*.xcodeproj
+*.mk
+*.Makefile
+*.d
+*.lock
+out/
+
+# python
+*.pyc
+
+# eclipse
+*.cproject
+*.project
+
+# git svn
+*.svn
+
+# png
+*.png
+*.img
+
+*.tags
+*.tags_sorted_by_file
