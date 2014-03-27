@@ -29,6 +29,11 @@
           'once.cc',
           'port.h',
           'shutdown.h',
+          'strings/string_util.h',
+          'strings/string_util_posix.h',
+          'strings/stringprintf.h',
+          'strings/stringprintf.cc',
+          'sys_byteorder.h',
         ],
         'defines': [
           'BASE_IMPLEMENTATION',

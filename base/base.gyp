@@ -9,7 +9,8 @@
   'targets': [
     {
       'target_name': 'base',
-      'type': '<(component)',
+      # 'type': '<(component)',
+      'type': 'static_library',
       'toolsets': ['host', 'target'],
       'variables': {
         'base_target': 1,

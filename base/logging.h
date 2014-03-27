@@ -146,6 +146,14 @@ T* CheckNotNull(const char *file, int line, const char *name, T* val) {
 
 #endif  // !NDEBUG
 
+
+#if defined(NDEBUG)
+#define NOTREACHED() LOG(ERROR) << "NOTREACHED() hit in " << \
+    __FUNCTION__ << ". "
+#else
+#define NOTREACHED() DCHECK(false)
+#endif
+
 typedef void LogHandler(LogLevel level, const char* filename, int line,
                         const std::string& message);
 
